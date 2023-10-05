@@ -44,7 +44,7 @@ async function bashWelcome(): Promise<void> {
 async function bashMainLoop(app: HTMLElement): Promise<void> {
 	
 	while (true) {
-		printnln(`swalha@Falc0n`, 'green');
+		printnln(`${getIp()}@MohammadYosef`, 'green');
 		printnln(':');
 		printnln('~/terminalMe', 'blue');
 		printnln('$ ');
